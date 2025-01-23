@@ -15,13 +15,6 @@ Prerequisites:
 Project Setup:
 --------------
 
-1.I am sharing a .tar file. When you extract it, you will get a folder named abcFitnessProject, which contains the project, and a file named ReadMe-AbcFitness, which is the accompanying documentation.
-2.Import the project into eclipse.
-3.Configure Dependencies include(pom.xml,web.xml)
-4. Run the following command to download dependencies for maven(if needed)
-	--mvn clean install
-5.Ensure your web.xml is properly configured(it will automatically come when you import my project).
-6.Resolve the issues in java buildPath (if any).
-7. Add Tomact to servers and run the project as Run On Server.
+I am sharing a .zip files that, when extracted, contains a folders . To work with the project, first import it into Eclipse. Once imported, ensure all dependencies are properly configured, including the pom.xml for Maven and web.xml for web configuration. If needed, run the command mvn clean install to download the required Maven dependencies. Ensure that the web.xml file is properly configured (this should happen automatically upon import) and resolve any issues in the Java Build Path. Finally, add Tomcat to the Eclipse Servers view and run the project as Run on Server.
 
-Note:I have developed the backend functionality. Please let me know if you would like me to work on developing the frontend screens as well, as they have not been created yet.
+Please note that you may need to download additional JAR files for the Spring Framework. For Java class references, check the included build.zip, which contains the controller folder (with main controller classes) and the pojo folder (with backend POJO files). These are the primary files for backend functionality. I have developed the backend functionality for the project, but the frontend screens have not been created yet. Please let me know if you would like me to work on the frontend development as well.
